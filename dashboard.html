@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="main-layout">
+
+        <nav class="sidebar">
+
+            <ul>
+                <li class="close-menu-li"><a href="#" id="close-menu-btn"><i class="fas fa-times"></i></a></li>
+                <li><a href="dashboard.html"title="Dashboard" class="aktif"><i class="fas fa-home"></i>Dashboard</a></li>
+                <li><a href="products.html" title="Produk"><i class="fas fa-box"></i>Products</a></li>
+                <li><a href="#" title="Statistik"><i class="fas fa-chart-line"></i>Statistik</a></li>
+                <li><a href="#" title="Setting"><i class="fas fa-cog"></i>Setting</a></li>
+                <li><a href="#" id="logout-btn" title="Logout"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+            </ul>
+
+        </nav>
+        <main class="content-area">
+            <header class="main-header">
+                <button class="hamburger-menu" id="hamburger-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1>Dashboard</h1>
+            </header>
+            <section class="card-section">
+        
+                <div class="card-summary">
+        
+                    <div class="card">
+                        <i class="fas fa-shopping-bag"></i>
+                        <h3>Total Products</h3>
+                        <p class="value" id="total-products">0</p>
+                    </div>
+        
+                    <div class="card">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>Total Sales</h3>
+                        <p class="value" id="total-sales">0</p>
+                    </div>
+        
+                    <div class="card">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h3>Total Revenue</h3>
+                        <p class="value" id="total-revenue">0</p>
+                    </div>
+
+                    
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="btn-primary" onclick="window.location.href='products.html'">
+                        Lihat Data Produk
+                    </button>
+                </div>
+                
+            </section>
+        
+        </main>
+
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
