@@ -5,8 +5,8 @@ Nama    : Ramdani Ardhin Pasha
 NIM     : 24090070  
 Password: 24090070  
 ---
-Link Github Repository  : https://github.com/pashalahh/uts-ramdaniardhinpasha-24090070.git  
-Link Github Pages       : https://pashalahh.github.io/uts-ramdaniardhinpasha-24090070/  
+Link Github Repository  : https://github.com/pashalahh/uts-ramdaniardinpasha-24090070.git     
+Link Github Pages       : https://pashalahh.github.io/uts-ramdaniardinpasha-24090070/ 
 ---
 Deskripsi Singkat
 ---
